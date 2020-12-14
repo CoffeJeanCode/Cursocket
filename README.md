@@ -1,7 +1,7 @@
 <h1 align="center">Cursocket / Collaborative cursor with socket.io</h1>
 
 <h2>
-    <a href="https://github-jobs-theta.vercel.app/">
+    <a href="https://cursocket.herokuapp.com/">
         Demo
     </a>
 </h2>
@@ -34,7 +34,7 @@ $ yarn install
 # Run the app in development mode
 $ npm run dev
 # or
-yarn dev
+$ yarn dev
 ```
 
 ## Contact
