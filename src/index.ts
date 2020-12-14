@@ -1,12 +1,12 @@
-import { app, server } from "./app";
+import { app, server } from './app'
 
-async function main() {
+function main() {
   try {
-    server.listen(app.get("port"));
-    console.log(`Server on port ${app.get("port")}`);
+    server.listen(app.get('port'))
+    console.log(`Server on port ${app.get('port')}`)
   } catch (e) {
-    console.error(e);
+    console.error(e)
   }
 }
 
-main();
+main()
