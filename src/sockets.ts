@@ -11,5 +11,7 @@ export default function sockets(socket: Socket) {
     socket.broadcast.emit('mousemove', cursor)
   })
 
-  socket.on('disconnect', () => {})
+  socket.on('disconnect', () => {
+    socket.leave(uuid().repeat(2))
+  })
 }
